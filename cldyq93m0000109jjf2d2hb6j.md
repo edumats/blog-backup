@@ -12,7 +12,7 @@ Let's calculate the total price for 3 burgers which costs $1.1 each:
 burger_price = 1.1
 amount = 3
 total = burger_price * amount
-# Expected 3.3, but got 3.3000000000000003 :sob:
+# Expected 3.3, but got 3.3000000000000003 :(
 ```
 
 What is happening here? This result would look awful on a shopping cart!
@@ -60,7 +60,7 @@ You can even fail a simple automated test and spend hours trying to figure out w
 
 ```python
 assert 0.1 + 0.2 == 0.3
-# Raises AssertionError :fearful:
+# Raises AssertionError!
 ```
 
 ## Why does this happen?
